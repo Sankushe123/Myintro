@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;900&family=Nanum+Gothic+Coding:wght@700&family=Silkscreen&display=swap');
+@media (min-width:320px) and (max-width:360px) {
+    .navcls{
+        padding: 0;
+    }
+    .headercls{
+        
+        .headnamecls{
+            font-size: 2rem;
+        }
+        .animetextcls{
+            font-size: 1rem;
+        }
+    }
+    .certifictcls{
+        .certidesc{
+            width: 70%;
+            
+        }
+    }
+}
+@media (min-width:361px) and (max-width:440px) {
+    .headercls{
+        .headnamecls{
+            font-size: 2rem;
+        }
+    }
+    .certifictcls{
+        width: 80%;
+        .certidesc{
+            width: 70%;
+            h1{
+                font-size: 1.3rem;
+            }
+            h2{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.filter-btn {
+    border: 1px solid #ddd;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .filter-btn.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+#Contact{
+background: #162065;
+background: radial-gradient(at right center, #162065, #010101);
+}
+
+.card:hover{
+    transition:.7s;  
+    -webkit-box-shadow: 6px 12px 22px 11px rgba(0,0,0,0.34);
+    -moz-box-shadow: 6px 12px 22px 11px rgba(0,0,0,0.34);
+    box-shadow: 6px 12px 22px 11px rgba(0,0,0,0.34);
+}
