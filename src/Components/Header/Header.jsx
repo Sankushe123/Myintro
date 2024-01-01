@@ -96,7 +96,7 @@ const Header = () => {
                 </nav>
             </section>
             <section class="text-gray-600 body-font">
-                <div className="headercls container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+                <div className="headercls container mx-auto flex px-5 py-14 md:flex-row flex-col items-center">
                     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         <span className='' style={{ fontSize: '1.2rem' }}>Hello I'm,</span>
                         <h1 class="headnamecls title-font sm:text-5xl md:text-5xl mb-1 font-bold text-gray-900 font-headings">Shubham Ankushe
