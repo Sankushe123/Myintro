@@ -17,7 +17,6 @@ import mysql from './../../assets/mysql.png'
 
 import api from './../../assets/api.png'
 import graphql from './../../assets/graphql.png'
-
 import git from './../../assets/git.png'
 import github from './../../assets/github.png'
 import jest from './../../assets/jest.png'
