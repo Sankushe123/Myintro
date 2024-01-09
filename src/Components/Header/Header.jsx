@@ -1,20 +1,17 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-
 import htmlimg from './../../assets/html-5.png'
 import cssimg from './../../assets/css-3.png'
 import javascriptimg from './../../assets/java-script.png'
 import shubhamlogo from './../../assets/shubhamlogo.png'
 import linkedin from './../../assets/linkedin.png'
 import githubheader from './../../assets/githubheader.png'
-
 import react from './../../assets/react.png'
 import redux from './../../assets/redux.png'
 import node from './../../assets/node.png'
 import express from './../../assets/express.png'
 import mongodb from './../../assets/mongodb.png'
 import mysql from './../../assets/mysql.png'
-
 import api from './../../assets/api.png'
 import graphql from './../../assets/graphql.png'
 import git from './../../assets/git.png'
@@ -104,7 +101,7 @@ const Header = () => {
                         <p class="mb-8 leading-relaxed">Immediate Joiner as Developer. I can create a well-designed and SEO-friendly website and have the ability to use cloud services to make the website scalable. Open to work as Software Engineer, React Web Developer, Mern Developer.</p>
                         <div class="flex justify-center">
                             <a href='https://drive.google.com/file/d/131HcMDx_m3iXvw8AtQiDknA8cVeV5N1e/view?usp=sharing' target='_blank' class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">View Resume</a>
-                            <a href='/contact' class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact</a>
+                            {/* <a href='/contact' class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact</a> */}
                         </div>
                         <span class="flex mt-7">
                             <a href='https://github.com/Sankushe123' target='_blank' class="text-gray-500 w-7 h-7">
@@ -114,7 +111,7 @@ const Header = () => {
                                 <img src={linkedin} alt="linkedin png" />
                             </a>
                         </span>
-                        
+
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                         <img class="object-cover object-center rounded" alt="hero" src={vector} />
